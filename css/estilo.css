@@ -2,82 +2,45 @@
 /* Css - Index */
     
 .banner {
-    width: 105%;
+    width: 120%;
     height: 750px;
-
+   
 }
 
-.contenedor {
+.container {
     width: 90%;
     height: 800px;
     background-image:url("../images/contenedor/contenedor.png") ;
-    font-size: 18px; 
+    font-size: 20px; 
     font-family: 'Lato', sans-serif;
     font-family: 'Roboto', sans-serif;
-    color: yellow;
+    color: rgb(87, 87, 80);
     margin: 15px;
+    list-style: none;
    
 }
 
 .head {
     color:yellow;
     font-size: 50px;
-    display: flex;
+    display: grid;
     justify-content: center;
     text-align: center;
 }
 
-#sec-head {
-    color: yellowgreen;
+.grid {
+    font-size: 25px;
+    text-decoration: none;
+    text-align: center;
+    margin: 5px;
+    border-style: solid;
     
+
 }
 
-.grid-nav {
-    font-size: 10px;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1rem 2rem 3rem;
-}
-
-.index-grid {
-    display: grid;
-    border-color: white;
-}
-
-.atp-grid {
-    display: grid;
-}
-
-.consolas-grid {
-    display: grid;
-}
-
-.perifericos-grid {
-    display: grid;
-}
-
-.qs-grid {
-    display: grid;
-    color: yellow;
-}
-
-
-.categorias li {
-    font-size: x-large;
-    color: aquamarine;
-    padding: 10px 10px;
-    display: flex;
-    list-style: none;
-    
-}
-
-.categorias :hover {
-    background-color: orange;
-    color:white;
+li {
     list-style: none;
 }
-     
-
 
 .lista-css {
     list-style: none;
@@ -88,14 +51,16 @@
     
 }
 
-#input {
-    width: 15%;
+input {
     height: 40px;
-    line-height: 60px;
-    background-color: #f2f3f4;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
+    width: 22%;
+    border-radius: 10px;
+}
+
+button {
+    height: 40px;
+    width: 5%;
+    border-radius: 10px;
 
 }
 
@@ -159,10 +124,15 @@ list-style: none;
 
 }
 
+
+/* Media Querys */
 @media screen and (max-width:768px) {
-    .contenedor {
-        
+    .categorias .contenedor, .nav, .grid-nav, .articles {
+        display: grid;
+        grid-template-columns: 1 1fr;
+        background-color: transparent;
     }
+
 }
 
 /* Css - Quienes Somos */
@@ -190,22 +160,6 @@ list-style: none;
 
 /* Css- Perifericos */
 
-.categorias {
-    color: #f4f6f7;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    list-style: none;
-}
-
-.categorias a {
-    font-size: x-large;
-    color: aquamarine;
-    padding: 10px 10px;
-    
-    
-}
 
 #logik123{
     width: 250px;
@@ -278,12 +232,6 @@ list-style: none;
 
 /* Css - Arma tu PC */
 
-.categorias {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    list-style: none;
-}
 
 #article-atp {
     color:aliceblue ;
@@ -308,3 +256,10 @@ list-style: none;
 
  }
  
+ @media screen and (max-width:800px) and (min-width:) {
+    .articles {
+         display: block;
+         width: 100%;
+     }
+     
+ }
