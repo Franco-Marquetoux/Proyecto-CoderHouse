@@ -8,8 +8,6 @@
 }
 
 .container {
-    width: 90%;
-    height: 800px;
     background-image:url("../images/contenedor/contenedor.png") ;
     font-size: 20px; 
     font-family: 'Lato', sans-serif;
