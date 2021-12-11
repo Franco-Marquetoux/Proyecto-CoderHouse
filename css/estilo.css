@@ -1,13 +1,20 @@
 
 /* Css - Index */
     
-.banner {
-    width: 120%;
-    height: 750px;
-   
+.header__logo {
+    width: 100%;
+    height: 500px;
+    padding: 10px;
+    margin: 35px;
 }
 
-.container {
+.banner-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fondo {
     background-image:url("../images/contenedor/contenedor.png") ;
     font-size: 20px; 
     font-family: 'Lato', sans-serif;
@@ -122,6 +129,14 @@ list-style: none;
 
 }
 
+.navbar {
+    height:auto;
+    width: 65%;
+    margin: 1px;
+    border: rgb(87, 87, 80) solid .5px;
+    border-left: none;
+    border-right: none;
+}
 
 /* Media Querys */
 @media screen and (max-width:768px) {
@@ -145,7 +160,7 @@ list-style: none;
     color: #aeb6bf;
 }
 
-#contact {
+.contact {
     font-size: 15px;
     color: yellow;
  }
@@ -254,10 +269,4 @@ list-style: none;
 
  }
  
- @media screen and (max-width:800px) and (min-width:) {
-    .articles {
-         display: block;
-         width: 100%;
-     }
-     
- }
+ 
