@@ -22,6 +22,7 @@
 </head>
 
 <body class="fondo">
+    <!-- header & logo -->
         <header>
             <div class="banner-box">
                 <img class="header__logo" src="/images/banners/banner-3.jpg" alt="banner-index">
@@ -29,7 +30,7 @@
         </header><br>
     <nav>
         <div class="d-flex justify-content-center">
-            <ul class="navbar navbar-expend-xs navbar-dark bg-dark">
+            <ul class="navbar navbar-expend-xs bg-dark">
                 <li class="nav-item"><a class="nav-link" href="/index.html">Inicio</a></li>
                 <li class="nav-item"><a class="nav-link" href="/sec/armatupc.html">Arma tu PC</a></li>
                 <li class="nav-item"><a class="nav-link" href="/sec/consolas.html">Consolas</a></li>
@@ -39,69 +40,68 @@
         </div>
     </nav>
 <br><br><br>
-
-    <main>
-        <div id="article-atp">
-            <article>
-                <section>
-                    <p id="armatupc">
+<!-- contenido del main -->
+    <main class="container-fluid">
+        <div class="grid">
+        <section>
+             <p id="armatupc">
                         <strong>Arma tu PC elegiendo los componentes que mas te gusten y dependendiendo de la inversion
                             con
                             la
                             que contas.</strong>
                     </p>
-                </section>
-                <section>
-                    <h1 class="titulo-color">Placas de video GeForce</h1>
-                    <div>
+                    <article class="card bg-transparent">
+                    <h1>Placas de video GeForce</h1>
+                    <div style="width: 25rem;">
                         <ul>
-                            <div class="placas">
-                                <li>Placa de video GeForce Gigabyte GT 1030 2gb <strong>$99999</strong></li><br>
-                                <img src="/images/gf/1030.jpg" alt="GeForce 1030"><br>
+                            <div class="bg-transparent">
+                                <li class="card-body">Placa de video GeForce Gigabyte GT 1030 2gb <strong>$99999</strong></li><br>
+                                <img class="rounded" src="/images/gf/1030.jpg" alt="GeForce 1030"><br>
                                 <li>Placa de video GeForce Asus GTX 1660 6gb GDDR5 PHOENIX OC <strong>$99999</strong>
                                 </li><br>
-                                <img src="/images/gf/1660.jpg" alt="GeForce 1660"><br>
-                                <li>Placa de videoGeForce Msi RTX3090 24gb GDDR6x VENTUS 3X OC <strong>$99999</strong>
+                                <img class="rounded"src="/images/gf/1660.jpg" alt="GeForce 1660"><br>
+                                <li class="card-body">Placa de videoGeForce Msi RTX3090 24gb GDDR6x VENTUS 3X OC <strong>$99999</strong>
                                 </li><br>
-                                <img src="/images/gf/3090.jpg" alt="GeForce 3090"><br>
-                                <li>Placa de vide GoForce Zotac RXT 2060 6gb GGDR6 Twin Fan <strong>$99999</strong></li>
+                                <img class="rounded" src="/images/gf/3090.jpg" alt="GeForce 3090"><br>
+                                <li class="card-body">Placa de vide GoForce Zotac RXT 2060 6gb GGDR6 Twin Fan <strong>$99999</strong></li>
                                 <br>
-                                <img src="/images/gf/2060.jpg" alt="GeForce 2060"><br>
-                                <li>Placa de vide GoForce Msi G210 1gb DDR3 Low Profile <strong>$99999</strong></li><br>
-                                <img src="/images/gf/210.jpg" alt="GeForce 210"><br>
+                                <img class="rounded" src="/images/gf/2060.jpg" alt="GeForce 2060"><br>
+                                <li class="card-body">Placa de vide GoForce Msi G210 1gb DDR3 Low Profile <strong>$99999</strong></li><br>
+                                <img class="rounded" src="/images/gf/210.jpg" alt="GeForce 210"><br>
                             </div>
                         </ul>
-                </section>
-                <section>
+                    </article>
+                    <article class="card bg-transparent">
                     <h1 class="titulo-color">
                         Placas de video Radeon AMD</h1>
                     <ul>
-                        <div class="placas-radeon">
-                            <li>Placas de video Radeon Asrock RX 570 9gb Phanton Gaming D <strong>$99999</strong></li>
+                        <div style="width: 25rem;">
+                        <div>
+                            <li class="card-body">Placas de video Radeon Asrock RX 570 9gb Phanton Gaming D <strong>$99999</strong></li>
                             <br>
-                            <img src="/images/amd/570.jpg" alt="RX 570"><br><br>
-                            <li>Placas de video Radeon Asus Radeon RX 6800 XT 16gb GDDR6 TUf GAMING OC</li>
+                            <img class="rounded" src="/images/amd/570.jpg" alt="RX 570"><br><br>
+                            <li class="card-body">Placas de video Radeon Asus Radeon RX 6800 XT 16gb GDDR6 TUf GAMING OC</li>
                             <strong>$99999</strong>
                             <br>
-                            <img src="/images/amd/6800tuf.jpg" alt="RX"><br><br>
-                            <li>Placas de video Radeon PowerColor RX 6600 9gb GDDR6 FIGHTER <strong>$99999</strong></li>
+                            <img class="rounded" src="/images/amd/6800tuf.jpg" alt="RX"><br><br>
+                            <li class="card-body">Placas de video Radeon PowerColor RX 6600 9gb GDDR6 FIGHTER <strong>$99999</strong></li>
                             <br>
-                            <img src="/images/amd/6600fgt.jpg" alt="RX 6600 Fighter"><br><br>
-                            <li>Placa de Video Radeon Sapphire Radeon RX 6600 XT 8gb GDDR6 NITRO+
+                            <img class="rounded" src="/images/amd/6600fgt.jpg" alt="RX 6600 Fighter"><br><br>
+                            <li class="card-boy">Placa de Video Radeon Sapphire Radeon RX 6600 XT 8gb GDDR6 NITRO+
                                 <strong>$99999</strong>
                             </li>
                             <br>
-                            <img src="/images/amd/6600spp.jpg" alt="RX 6600 Sapphire"><br><br>
-                            <li>Placa de Video Radeon Afox R5 230 2gb DDR3 V5 <strong>$99999</strong> </li><br>
-                            <img src="/images/amd/230jpg.jpg" alt="R5 230"><br>
+                            <img class="rounded" src="/images/amd/6600spp.jpg" alt="RX 6600 Sapphire"><br><br>
+                            <li class="card-body">Placa de Video Radeon Afox R5 230 2gb DDR3 V5 <strong>$99999</strong> </li><br>
+                            <img class="rounded" src="/images/amd/230jpg.jpg" alt="R5 230"><br>
                         </div>
                     </ul>
-        </div>
+                </div>
+                </article>
         </section>
-        </article>
-        </div>
+    </div>
     </main>
-
+<!-- footer -->
     <footer>
         <div>
             <center><strong>DERECHOS RESERVADOS Data Gaming 2022</strong></center>
