@@ -20,28 +20,36 @@
             <img class="header__logo" src="/images/banners/banner-3.jpg" alt="banner-index">
         </div>
     </header><br>
-    <nav>
-        <div class="d-flex justify-content-center">
-            <ul class="navbar navbar-expend-xs navbar-dark bg-dark">
-                <li class="nav-item"><a class="nav-link" href="/index.html">Inicio</a></li>
-                <li class="nav-item"><a class="nav-link" href="/sec/armatupc.html">Arma tu PC</a></li>
-                <li class="nav-item"><a class="nav-link" href="/sec/consolas.html">Consolas</a></li>
-                <li class="nav-item"><a class="nav-link" href="/sec/perifericos.html">Perifericos</a></li>
-                <li class="nav-item"><a class="nav-link" href="/sec/qs.html">Quienes Somos</a></li>
-            </ul>
+    <div class="container-fluid">
+        <!-- Menu de Navegacion -->
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark border-buttom boder-primary">
+            <div class="container-fluid">
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menunavegacion">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div id="menunavegacion" class="collapse navbar-collapse">
+                    <ul class="navbar-nav ms-3">
+                    <li class="nav-item"><a class="nav-link" href="/index.html">Inicio</li></a>
+                    <li class="nav-item"><a class="nav-link" href="/sec/armatupc.html">Arma tu PC</li></a>
+                    <li class="nav-item"><a class="nav-link" href="/sec/consolas.html">Consolas</li></a>
+                    <li class="nav-item"><a class="nav-link" href="/sec/perifericos.html">Perifericos</li></a>
+                    <li class="nav-item"><a class="nav-link" href="/sec/qs.html">Quienes Somos</li></a>
+                </ul>
+                </div>
+            </div>
+        </nav>
         </div>
-    </nav>
 <br><br><br>
     <main>
         <div id="div-qs">
             <article>
                 <section>
-                    <h1>Data Gaming es una pagina web dedicada a la compra de insumos de computacion.
+                    <h1 class="fs-2">Data Gaming es una pagina web dedicada a la compra de insumos de computacion.
                         contamos con los mejores tecnicos que te van a ayudar en cualquier situacion o duda que tengas.
                     </h1>
                 </section>
                 <section>
-                    <h2>Somos una empresa dedicada a la construccion y venta de componentes informaticos
+                    <h2 class="fs-2">Somos una empresa dedicada a la construccion y venta de componentes informaticos
                         y a soluciones informaticas.</h2>
                 </section>
             </article>
