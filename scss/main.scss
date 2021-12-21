@@ -1,6 +1,14 @@
-fondo{
+@mixin color-letras {
   background-image: url(../images/contenedor/contenedor.png);
-p {
-  color:aquamarine ;
-}
-}
+  color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .fondo{
+    @include color-letras {
+  background-image:url("../images/contenedor/contenedor.png");
+  color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      
+    }
+  }
