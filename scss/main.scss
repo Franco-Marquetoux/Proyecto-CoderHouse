@@ -8,19 +8,23 @@
 }
 
 .banner-box {
-    display: flex;
+    display: grid;
     align-items: center;
     justify-content: center;
+    width: 100%;
 }
 
-.fondo {
-    background-image:url("../images/contenedor/contenedor.png");
+body {
+    background: rgb(17,17,18);
+    display: grid;
     font-size: 20px; 
     font-family: 'Lato', sans-serif;
     font-family: 'Roboto', sans-serif;
     color: rgb(87, 87, 80);
-    margin: 15px;
     list-style: none;
+    margin: 1px;
+    
+
    
 }
 
@@ -82,6 +86,7 @@ grid-template-columns: repeat(5,1fr);
     padding: 10px;
     list-style-type: none;
 }
+/* Sass */
 
 #redragon-logo {
     width: 250px;
@@ -95,8 +100,6 @@ grid-template-columns: repeat(5,1fr);
     padding: 10px;
     list-style: none;
 }
-
-
 }
 
 
@@ -122,13 +125,20 @@ grid-template-columns: repeat(5,1fr);
 
 }
 
-.navbar {
-    height:auto;
-    width: 65%;
-    margin: 1px;
-    border: rgb(87, 87, 80) solid .5px;
-    border-left: none;
-    border-right: none;
+.nav-item {
+    border-style: inset;
+    padding: 10px;
+    margin: 0px 35px 0px 0px;
+    
+    
+    
+    
+}
+
+.app-navbar {
+    border: rgb(87, 87, 80) solid 1px;
+    
+    
 }
 
 /* Media Querys */
