@@ -19,13 +19,13 @@
 }
 
 body {
-  background: #111112;
+  background: gray;
   display: -ms-grid;
   display: grid;
-  font-size: 20px;
+  font-size: 18px;
   font-family: 'Lato', sans-serif;
   font-family: 'Roboto', sans-serif;
-  color: #575750;
+  color: black;
   list-style: none;
   margin: 1px;
 }
@@ -57,7 +57,7 @@ li {
 }
 
 #articles {
-  color: #f2f3f4;
+  color: black;
 }
 
 #articlesinput {
@@ -124,14 +124,27 @@ li {
   display: grid;
 }
 
-.nav-item {
-  border-style: inset;
-  padding: 10px;
-  margin: 0px 35px 0px 0px;
+.navbar {
+  background-color: #222222;
 }
 
-.app-navbar {
-  border: #575750 solid 1px;
+.nav-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-style: none;
+  padding: 5px;
+  margin: 2px 100px 2px 100px;
+  list-style: none;
+  text-align: center;
+  height: 45px;
+  text-transform: none;
+  text-decoration: none;
+}
+
+.nav-item a:hover {
+  background-color: rgba(213, 151, 65, 0.3);
+  background-position: center;
 }
 
 /* Media Querys */
@@ -162,7 +175,7 @@ li {
 }
 
 .color-letra-contact {
-  color: beige;
+  color: black;
 }
 
 /* Css- Perifericos */
@@ -234,7 +247,7 @@ li {
 
 /* Css - Arma tu PC */
 #article-atp {
-  color: aliceblue;
+  color: black;
 }
 
 .titulo-color {
@@ -244,7 +257,7 @@ li {
 
 #contact {
   font-size: 15px;
-  color: yellow;
+  color: white;
   list-style: none;
 }
 

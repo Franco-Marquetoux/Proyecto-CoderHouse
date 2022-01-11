@@ -17,12 +17,12 @@
 
 
 body {
-    background: rgb(17,17,18);
+    background:gray;
     display: grid;
-    font-size: 20px; 
+    font-size: 18px; 
     font-family: 'Lato', sans-serif;
     font-family: 'Roboto', sans-serif;
-    color: rgb(87, 87, 80);
+    color:black;
     list-style: none;
     margin: 1px;
     
@@ -56,7 +56,7 @@ li {
 }
 
 #articles { 
-    color: #f2f3f4;
+    color:black;
 
     &input {
     height: 40px;
@@ -127,21 +127,31 @@ grid-template-columns: repeat(5,1fr);
 
 }
 
+.navbar {
+    background-color: #222222;
+
+}
+
 .nav-item {
-    border-style: inset;
-    padding: 10px;
-    margin: 0px 35px 0px 0px;
+    display: flex;
+    border-style: none;
+    padding: 5px;
+    margin: 2px 100px 2px 100px;
+    list-style: none;
+    text-align: center;
+    height: 45px;
+    text-transform: none;
+    text-decoration: none;
     
-    
-    
+
     
 }
 
-.app-navbar {
-    border: rgb(87, 87, 80) solid 1px;
-    
-    
+.nav-item a:hover {
+    background-color: rgba(213, 151, 65, 0.3);
+    background-position: center;
 }
+
 
 /* Media Querys */
 @media screen and (max-width:768px) {
@@ -171,7 +181,7 @@ grid-template-columns: repeat(5,1fr);
  }
 
  .color-letra-contact {
-     color: beige;
+     color: black;
  }
 
 
@@ -265,7 +275,7 @@ grid-template-columns: repeat(5,1fr);
 
 
 #article-atp {
-    color:aliceblue ;
+    color:black ;
 }
 
 .titulo-color {
@@ -275,7 +285,7 @@ grid-template-columns: repeat(5,1fr);
 
 #contact {
     font-size: 15px;
-    color: yellow;
+    color: white;
     list-style: none;
  }
  
