@@ -1,30 +1,21 @@
 /* Css - Index */
 .header__logo {
   width: 100%;
-  height: 500px;
   padding: 10px;
-  margin: 35px;
 }
 
-.banner-box {
-  display: -ms-grid;
-  display: grid;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: 100%;
+.card {
+  border: black .5px solid;
 }
 
 body {
-  background: gray;
+  background: white;
   display: -ms-grid;
   display: grid;
   font-size: 18px;
   font-family: 'Lato', sans-serif;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   color: black;
   list-style: none;
   margin: 1px;
@@ -108,10 +99,6 @@ li {
   height: 200px;
   padding: 10px;
   list-style-type: none;
-}
-
-#pie-pagina {
-  color: #f2f3f4;
 }
 
 #contact {
