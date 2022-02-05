@@ -1,24 +1,67 @@
 /* Css - Index */
 .header__logo {
   width: 100%;
-  padding: 10px;
+  height: 680px;
+}
+
+.accordion {
+  margin: 3px 200px 3px 200px;
+  font-size: medium;
+}
+
+h1, h2, h3, h4, h6 {
+  color: white;
+}
+
+.buscador {
+  margin: 0px 650px 0px 650px;
+}
+
+.busca {
+  color: black;
+  border-bottom: 3mm;
+  border-color: black;
+  background-color: white;
+}
+
+.inicio {
+  margin: 1px;
+  border-style: solid 5px black;
+  padding: 1rem;
+  height: 480px;
+  font-size: 50px;
 }
 
 .card {
   border: black .5px solid;
+  color: black;
+  height: auto;
 }
 
 body {
-  background: white;
-  display: -ms-grid;
-  display: grid;
+  background: #3C3B3F;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-gradient(linear, left top, right top, from(#605C3C), to(#3C3B3F));
+  background: linear-gradient(to right, #605C3C, #3C3B3F);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   font-size: 18px;
   font-family: 'Lato', sans-serif;
   font-family: 'Open Sans', sans-serif;
   font-family: 'Ubuntu', sans-serif;
-  color: black;
   list-style: none;
-  margin: 1px;
+  margin: 3px;
+}
+
+.derechos {
+  background: #000000;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-gradient(linear, left top, left bottom, from(#434343), to(#000000));
+  background: linear-gradient(to bottom, #434343, #000000);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+  border-style: dashed .1px;
 }
 
 .head {
@@ -33,7 +76,7 @@ body {
 }
 
 .grid {
-  font-size: 25px;
+  font-size: 50px;
   text-decoration: none;
   text-align: center;
   margin: 5px;
@@ -48,62 +91,21 @@ li {
 }
 
 #articles {
-  color: black;
+  color: white;
 }
 
 #articlesinput {
   height: 40px;
   width: 22%;
   border-radius: 10px;
+  font-size: 50px;
 }
 
-#aside-sponsor {
-  display: -ms-grid;
-  display: grid;
-  grid-gap: 10px;
-  -ms-grid-columns: (1fr)[5];
-      grid-template-columns: repeat(5, 1fr);
-}
-
-#logi-logo {
-  width: 250px;
-  height: 200px;
-  padding: 10px;
-  list-style: none;
-}
-
-#astros-logo {
-  width: 300px;
-  height: 200px;
-  padding: 10px;
-  list-style-type: none;
-}
-
-/* Sass */
-#redragon-logo {
-  width: 250px;
-  height: 200px;
-  padding: 10px;
-  list-style: none;
-}
-
-#redragon-logonoganet-logo {
-  width: 300px;
-  height: 200px;
-  padding: 10px;
-  list-style: none;
-}
-
-#hyperx-logo {
-  width: 250px;
-  height: 200px;
-  padding: 10px;
-  list-style-type: none;
-}
-
-#contact {
+.contacto {
   font-size: 15px;
-  color: yellow;
+  color: white;
+  background-color: #000000;
+  border-style: solid 1px white;
 }
 
 #listas-logos {
@@ -153,7 +155,7 @@ li {
 }
 
 #div-qs {
-  color: #aeb6bf;
+  color: black;
 }
 
 .contact {
@@ -162,7 +164,7 @@ li {
 }
 
 .color-letra-contact {
-  color: black;
+  color: white;
 }
 
 /* Css- Perifericos */
@@ -223,7 +225,7 @@ li {
 }
 
 .consolas {
-  font-size: 30px;
+  font-size: 50px;
   color: indianred;
 }
 
@@ -234,11 +236,11 @@ li {
 
 /* Css - Arma tu PC */
 #article-atp {
-  color: black;
+  color: white;
 }
 
 .titulo-color {
-  font-size: 30px;
+  font-size: 50px;
   color: indianred;
 }
 

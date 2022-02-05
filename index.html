@@ -1,28 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <title>Data Gamer</title>
-  <meta name="description" content="Data Gaming es una pagina web de venta de insumos de computacion. Arma tu pc a medida teniendo en cuenta tus inversiones.">
-  <meta name="keywords" content="auriculares, teclados, mouse, pad, sillas, monitores, play station, x box, nintendo">
+  <head>
+    <meta charset="UTF-8">
+    <title>Data Gamer</title>
+    <meta name="description"
+      content="Data Gaming es una pagina web de venta de insumos de computacion. Arma tu pc a medida teniendo en cuenta tus inversiones.">
+    <meta name="keywords" content="auriculares, teclados, mouse, pad, sillas, monitores, play station, x box, nintendo">
   
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;1,100&family=Open+Sans:wght@300&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-  <link rel="stylesheet" href="/scss/main.css">
-</head>
-  
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;1,100&family=Open+Sans:wght@300&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="/scss/main.css">
+  </head>
+
 
 <body>
+  <div class="buscador">
+    <form class="d-flex justify-content-center">
+      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn busca" type="submit">Search</button>
+    </form>
+  </div>
+
   <!-- Menu navegacion -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
@@ -31,13 +40,14 @@
             <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/sec/qs.html">Quienes Somos</a>
+            <a class="nav-link" href="/sec/ayuda.html">Ayuda</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/sec/consolas.html">Consolas</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
               Productos</a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <li><a class="dropdown-item" href="/sec/placas.html">Placas de Video</a></li>
@@ -54,99 +64,107 @@
   </nav>
 
   <!-- Banner -->
-  
-    <header>
-      <div class="banner-box">
-        <img class="header__logo" src="/images/banners/banner-1.jpg" alt="banner-index">
-      </div>
-  </div>
-  </header><br>
+  <header>
+    <img class="header__logo" src="/images/banners/banner-1.jpg" alt="banner-index">
+    </div>
+  </header>
 
   <!-- Contenido de Main -->
   <main>
+    <div class="inicio">
     <section>
       <div id="articles">
         <br><br><br><br><br>
         <article>
-          <h3 class="h3">
-            Trabajamos todas las tarjetas y efectivo.
+          <h5 class="h5" style="font-size: 325x;">
+            Trabajamos todas las tarjetas y efectivo. <br>
+            <img src="https://img.icons8.com/ios/50/000000/visa.png" />
+            <img src="https://img.icons8.com/color/48/000000/mastercard.png" />
+            <img src="https://img.icons8.com/color/48/000000/american-express-squared.png" />
             <br><br>
             Aceptamos cryptomonedas, consultar precios del día.
-          </h3>
+          </h5>
 
           <article>
-            <h4 class="h4">
+            <h5 class="h5" style="font-size: 25px;">
               PROMOCIONES EN TODOS LOS PRODUCTOS.
-            </h4>
+            </h5>
           </article>
 
           <article>
-            <h4 class="h4">
+            <h5 class="h5" style="font-size: 25px;">
               Importantes <strong>DESCUENTOS</strong> para trabajos de mineria
-            </h4>
+            </h5>
           </article><br>
 
           <article>
-            <strong class="h4">ENVIOS GRATIS A TODOS EL PAIS</strong>
+            <strong class="h5" style="font-size: 25px;">ENVIOS GRATIS A TODOS EL PAIS</strong>
           </article>
       </div>
     </section>
+  </div>
   </main>
   <br><br><br><br>
 
   <!-- Aside con los Sponsors -->
-  <aside class="aside-sponsors">
-    <h3 class="h3">Sponsors:</h3>
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="/images/logosmarcas/redragon-logo.jpg" class="d-block w-40" alt="Redragon-Logo">
-        </div>
-        <div class="carousel-item">
-          <img src="/images/logosmarcas/logitech-logo.jpg" class="d-block w-40" alt="Logitech-Logo">
-        </div>
-        <div class="carousel-item">
-          <img src="/images/logosmarcas/hyperx-logo.jpg.png" class="d-block w-30" alt="Hyperx-Logo">
+  <div class="d-flex justify-content-center">
+    <aside class="aside-sponsor">
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/images/logosmarcas/HyperX_200x200.jpg" alt="hyperx-200x200">
+          </div>
+          <div class="carousel-item">
+            <img src="/images/logosmarcas/logitech-logo-2015-black.png" alt="logi-200x200">
+          </div>
+          <div class="carousel-item">
+            <img src="/images/logosmarcas/astro_logo.png" alt="astro-200x200">
+          </div>
+          <div class="carousel-item">
+            <img src="/images/logosmarcas/Redragon-200x200.png" alt="redragon-200x200">
+          </div>
+          <div class="carousel-item">
+            <img src="/images/logosmarcas/noganet-logo.png" alt="noga-200x200">
+          </div>
         </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-        data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-        data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-  </aside>
-
-  <!-- Footer -->
-  <footer><br><br><br><br>
-    <div class="h5">
-      <p>
+    </aside>
+  </div>
+  <br><br><br>
+  <div class="d-flex justify-content-center">
+    <img src="/images/mapa/mapa-dg.jpg" alt="" style="width:auto; height: auto;">
+  </div>
+    <br><br>
+  
+  <footer><br><br><br><br><br>
+    <div class="derechos">
+      <h6 class="h6">
         <center><strong>DERECHOS RESERVADOS Data Gaming 2022</strong></center>
-      </p>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <h4>Contactanos</h4>
-      <ul class="contact">
-        <li class="h6"><a href="https://www.Instagram.com">Instagram</a></li>
-        <li class="h6"><a href="https://www.facebook.com">Facebook</a></ll>
-        <li class="h6"><a href="https:www.datagaming.com/preguntasfrecuents">Preguntas
-            Frecuentes</a></li>
-        <li class="h6"><a href="https:www.hotmail.com">Mail de contacto</a></li>
-      </ul>
+        <br>
+      </h6>
     </div>
-
+    <br>
   </footer>
   </div>
   </div>
 </body>
+<!-- Footer -->
+<div class="contacto">
+  <h4 class="h4">Contactanos</h4>
+  <ul class="contact">
+    <li class="h6" id="ig"><a href="https://www.Instagram.com">Instagram</a> <img
+        src="https://img.icons8.com/color/25/000000/instagram-new--v1.png" /></li>
+
+    <li class="h6" id="fb"><a href="https://www.facebook.com">Facebook</a><img
+        src="https://img.icons8.com/fluency/25/000000/facebook.png" /></ll>
+
+    <li class="h6" id="web"><a href="https:www.datagaming.com/preguntasfrecuents">Preguntas
+        Frecuentes</a> <img src="https://img.icons8.com/offices/30/000000/faq.png" /></li>
+
+    <li class="h6" id="mail"><a href="https:www.hotmail.com">Mail de contacto</a><img
+        src="https://img.icons8.com/fluency/30/000000/apple-mail.png" /></li>
+  </ul>
+</div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
   integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
